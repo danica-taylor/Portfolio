@@ -1,0 +1,8 @@
+
+// List of projects from github 
+
+function Projects() {
+  return <div>Projects</div>
+}
+
+export default Projects
