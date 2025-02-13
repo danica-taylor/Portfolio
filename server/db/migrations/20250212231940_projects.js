@@ -5,11 +5,12 @@
 export async function up(knex) {
   return knex.schema.createTable('projects', (table) => {
     table.increments('id')
+    table.string('type')
     table.string('project_name')
     table.string('skills')
     table.string('description')
     table.string('focus_features')
-    table.string('website_link')
+    table.string('url')
   })
   
 };
